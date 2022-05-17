@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 34px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 50px;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 2;
+}
+
+.img-rocket {
+  width: 80%;
+}
+
+.input-text {
+  padding: 10px;
+  border: none;
+  border: .5px solid rgb(220, 207, 207);
+  border-radius: 4px;
+  width: 300px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.form-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.buttom-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.button-register{
+ padding: 8px;
+ border: none;
+ background: rgb(51, 133, 51);
+ color: white;
+ margin-right: 5px;
+ border-radius: 4px;
+ cursor: pointer;
+ width: 50%;
+}
+
+.button-danger{
+  padding: 8px;
+  border: none;
+  background: rgb(222, 65, 81);
+  color: white;
+ cursor: pointer;
+  border-radius: 4px;
+  width: 50%;
+}
+
+
+.is-invalid{
+  border: 1px solid red;
+}
+
+.error-span{
+  color: red;
+  font-size: 12px;
+  margin: 0;
+}
